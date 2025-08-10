@@ -1,0 +1,114 @@
+.login{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    h3{
+
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-family: $font-taviraj;
+    }
+    p{
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 600;
+    }
+    .btn-login{
+        padding: 10px 30px;
+        border: 1px solid #4DA42F;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #4DA42F;
+        border-radius: 30px;
+        position: relative;
+        background: linear-gradient(to left, #4DA42F 50%, #ffffff 50%) right;
+        background-size: 200%;
+        transition: 0.5s ease-out;
+        
+        &:hover{
+            background-position: left;
+            color: #000;
+        }
+    }
+    .form-control {
+        
+        border-radius: 4px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        background: transparent;
+        border: 1px solid #dcdcdc;
+        line-height: 1.5;
+        transition: 0.3s;
+        color: #909090;
+        line-height: 34px;
+    }
+    &__form{
+        width: 50%;
+        background: #4da42f;
+        h3{
+            color: #fff;
+            
+        }
+        label{
+            color: #FFFFFF;
+            font-weight: 500;
+        }
+        .form-control {
+            background: white;
+            color: #292929;
+        }
+        .btn-login {
+           
+            color: #000000;
+        
+            background: linear-gradient(to left, #ff9900 50%, #ffffff 50%) right;
+            background-size: 200%;
+            transition: 0.5s ease-out;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__img{
+        width: 50%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.register{
+    background: #4da42f;
+    h3{
+        color: #fff;
+        
+    }
+    label{
+        color: #FFFFFF;
+    }
+    .form-control {
+        background: white;
+        color: #292929;
+    }
+    .btn-login {
+       
+        color: #000000;
+    
+        background: linear-gradient(to left, #ffc107 50%, #ffffff 50%) right;
+        background-size: 200%;
+        transition: 0.5s ease-out;
+    }
+    img{
+        object-fit: cover;
+    }
+}

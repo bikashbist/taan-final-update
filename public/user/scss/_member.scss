@@ -1,0 +1,146 @@
+.member-list {
+
+
+    .member-details {
+        background-color: #edf2fa;
+        margin-top: -30px;
+        border-radius: 10px;
+    }
+
+    .mr-n2 {
+        margin-right: -.75em !important;
+    }
+
+    .card-img-avatar {
+        height: 80px;
+        width: 80px;
+        margin: -40px auto 0 auto;
+        border: 3px solid #fff;
+    }
+
+    .card-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .btn-view-more {
+        padding: 5px 13px;
+        border: 1px solid #4da42f;
+        color: #212121;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    span {
+        margin: 2px 0px;
+    }
+
+    img.card-img-top {
+        height: 80px;
+        object-fit: cover;
+    }
+}
+
+.member-filter-title {
+    font-family: 'Mulish';
+    font-weight: 900;
+    color: #333333;
+    font-size: 22px;
+}
+
+.filter-member {
+    span {
+        color: #333333;
+        padding: 6px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 3px 0px;
+        background: #ffffff;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.member-details-main {
+    h2 {
+        font-family: "Literata", serif;
+        font-size: 42px;
+        font-weight: 700;
+
+    }
+}
+
+.sidebar-right {
+    margin-top: -148px;
+    z-index: 99;
+}
+
+.member-sidebar-details {
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            list-style-type: none;
+            border-bottom: 1px solid #efefef;
+            line-height: 45px;
+            font-weight: 500;
+
+            &:first-child {
+                border-top: 1px solid #efefef;
+            }
+
+            .list-name {
+                color: #4da42f;
+            }
+        }
+    }
+}
+
+.member-search {
+    // background: linear-gradient(264.13deg, rgba(80, 192, 242, 0) -0.5%, #198754 21.5%, #198754 85.66%, rgba(170, 128, 224, 0) 105.8%), linear-gradient(266.99deg, #4da32f 4.71%, #4da32f 20.52%, #4da32f 34.53%, #4da32f 66.27%, #4da32f 79.23%, #4da32f 99.42%);
+    background-position: center center !important;
+    background-color: #09757a;
+}
+
+.search-trail {
+    position: relative;
+}
+
+#dropdownMenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    min-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#dropdownMenu li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#dropdownMenu li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#dropdownMenu li:hover {
+    background-color: #f1f1f1;
+}
